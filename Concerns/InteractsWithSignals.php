@@ -12,7 +12,7 @@ trait InteractsWithSignals
      *
      * @var Signals|null
      */
-    protected ?Signals $signals;
+    protected ?Signals $signals = null;
 
     /**
      * Define a callback to be run when the given signal(s) occurs.
