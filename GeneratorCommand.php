@@ -196,7 +196,7 @@ abstract class GeneratorCommand extends Command implements PromptsForMissingInpu
 
         $this->components->info(sprintf('%s [%s] created successfully.', $info, $path));
 
-        return true;
+        return null;
     }
 
     /**

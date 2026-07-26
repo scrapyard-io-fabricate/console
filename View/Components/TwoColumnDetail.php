@@ -22,7 +22,7 @@ class TwoColumnDetail extends Component
             Mutators\EnsureRelativePaths::class,
         ]);
 
-        $second = $this->mutate($second, [
+        $second = $this->mutate($second ?? '', [
             Mutators\EnsureDynamicContentIsHighlighted::class,
             Mutators\EnsureRelativePaths::class,
         ]);
